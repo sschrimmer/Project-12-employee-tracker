@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.4.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "project-12-employee-tracker",
+  "description": "This is a employee tracker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
