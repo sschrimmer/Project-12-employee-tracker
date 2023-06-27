@@ -1,4 +1,5 @@
-INSERT INTO department (name)
+USE employee_info_db;
+INSERT INTO department (name) 
 VALUES ("Security"), ("Arc Reactor"), ("Engineering"), ("Hospitality"), ("Leadership");
 
 INSERT INTO role (title, salary, department_id)

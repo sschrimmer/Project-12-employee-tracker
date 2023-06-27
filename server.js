@@ -197,9 +197,14 @@ function updateEmployee() {
 
 function viewDepartment() {
   // choose from the db
+  console.log ("got here")
   let query = "SELECT * FROM department";
   connection.query(query, function(err, res) {
-    if (err) throw err;
+    console.log ("got here2",res)
+    
+    if (err){console.log(err);
+     throw err;}
+
     console.table(res);
     startScreen();
   });
