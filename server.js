@@ -223,6 +223,7 @@ function viewRoles() {
 }
 
 function viewEmployees() {
+  console.log ("employees");
   // select from the db
   let query = "SELECT * FROM employee";
   connection.query(query, function(err, res) {
